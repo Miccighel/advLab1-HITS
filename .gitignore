@@ -1,0 +1,17 @@
+benchmark.tar.gz
+benchmark_ord.zip
+assumptions.txt
+dataLLM_ord_pqt
+dataLLM_00
+plotsLLM_00
+01_vs_00-10.pdf
+01_vs_01-10.pdf
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.venv
+*.vscode
