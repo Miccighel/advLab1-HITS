@@ -1,18 +1,18 @@
 # Analyzing AI Evaluation Benchmarks Through Information Retrieval and Network Science
 
-This repository contains the released results and supplementary materials for studying **AI evaluation benchmarks** through an **information retrieval** and **network science** perspective.
+This OSF project hosts the released results and supplementary materials accompanying the paper **"Analyzing AI Evaluation Benchmarks Through Information Retrieval and Network Science"**, published at **ECIR 2026**.
 
-The project analyzes benchmark results as a bipartite graph linking models and questions, with the goal of uncovering latent structure, assessing ranking stability, and identifying the influence of easier question subsets on leaderboard outcomes.
+The project supports the study of AI evaluation benchmarks through an **information retrieval** and **network science** perspective. In particular, it investigates how benchmark results can be analyzed as a bipartite graph linking models and questions, with the goal of uncovering latent structure, assessing ranking stability, and identifying the influence of easier question subsets on leaderboard outcomes.
 
-The released materials include serialized outputs and tabular exports derived from the experimental pipeline.
+The released materials include serialized outputs and tabular exports derived from the experimental pipeline described in the paper.
 
 ---
 
 ## Overview
 
-Benchmarking plays a central role in the evaluation of both **information retrieval systems** and **large language models**. This project studies benchmark behavior through an IR-inspired graph-based approach originally developed for TREC evaluation settings.
+Benchmarking plays a central role in the evaluation of both **information retrieval systems** and **large language models**. Recent discussions have raised concerns about benchmark robustness and the reliability of leaderboard-based comparisons.
 
-A bipartite graph is constructed between models and benchmark questions, and **Kleinberg’s HITS algorithm** is applied to derive structural signals from the evaluation data.
+In this work, benchmark results are analyzed through an IR-inspired graph-based approach originally developed for TREC evaluation settings. A bipartite graph is constructed between models and benchmark questions, and **Kleinberg’s HITS algorithm** is applied to derive structural signals from the evaluation data.
 
 Within this framework:
 
@@ -25,12 +25,12 @@ This perspective helps identify benchmark-induced biases and better understand t
 
 ## What is included
 
-This repository hosts **results and supplementary artifacts** associated with the project. The released materials are provided in two main formats:
+This OSF project hosts **results and supplementary artifacts** associated with the paper. The released materials are provided in two main formats:
 
 - **Serialized results bundles** (`.pkl`) for programmatic reuse
 - **Tabular exports** (`.csv`) for direct inspection and analysis
 
-The repository may also include **intermediate derived artifacts**, such as discretized or binarized representations and clustering labels, when relevant to the analyses.
+The release may also include **intermediate derived artifacts**, such as discretized or binarized representations and clustering labels, when relevant to the analyses.
 
 ---
 
@@ -101,12 +101,23 @@ The experiments use a pool of instruction-tuned LLMs, including the following mo
 
 ## Reuse notes
 
-This repository releases the **derived results and supplementary artifacts** used in the analyses. It is intended to support reuse and follow-up investigations on benchmark structure, ranking behavior, and question-level effects.
+This project releases the **derived results and supplementary artifacts** used in the analyses. It is intended to support transparency, reuse, and follow-up investigations on benchmark structure, ranking behavior, and question-level effects.
 
 When using these materials, please document any additional processing steps, filtering choices, or transformations applied to the released outputs.
 
 ---
 
-## Related publication
+## How to cite
 
-Simeoni, Gaia, Soprano, Michael, Lunardi, Riccardo, Roitero, Kevin, and Mizzaro, Stefano (2026). *Analyzing AI Evaluation Benchmarks Through Information Retrieval and Network Science*. In *Advances in Information Retrieval (ECIR 2026)*, pp. 349–359. Springer, Cham. https://doi.org/10.1007/978-3-032-21300-6_25
+If you use these materials, please cite the associated paper and, where appropriate, reference this OSF project.
+
+**Simeoni, G., Soprano, M., Lunardi, R., Roitero, K., & Mizzaro, S. (2026).** *Analyzing AI Evaluation Benchmarks Through Information Retrieval and Network Science*. In **R. Campos et al. (Eds.)**, *Advances in Information Retrieval: 48th European Conference on Information Retrieval, ECIR 2026, Delft, The Netherlands, March 29–April 2, 2026, Proceedings, Part II* (**Lecture Notes in Computer Science**, Vol. **16484**, pp. **349–359**). Springer, Cham. https://doi.org/10.1007/978-3-032-21300-6_25
+
+---
+
+## Contact
+
+For questions about the materials, please contact:
+
+- **simeoni.gaia@spes.uniud.it**
+- **michael.soprano@uniud.it**
